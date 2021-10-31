@@ -6,6 +6,6 @@ import androidx.room.PrimaryKey
 @Entity
 data class Home (
 @PrimaryKey(autoGenerate = true)
-val id:Int = 0,
+val id:Int = 10,
 var name:String
         )
